@@ -1,0 +1,13 @@
+local placeId = game.PlaceId
+
+if placeId == 1234567890 then
+    -- Game 1
+    print("Loaded Script For Game 1")
+
+elseif placeId == 9876543210 then
+    -- Game 2
+    print("Loaded Script For Game 2")
+
+else
+    print("Game Not Supported")
+end
